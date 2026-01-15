@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    background: #666;
+}
+
+/* Images css */
+.pimg1{
+    background-image: url("../Practice-Projects/Images/image1.png");
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url("../Practice-Projects/Images/image2.png");
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url("../Practice-Projects/Images/image3.png");
+    min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* css for text located in center of images */
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* backf=ground of texts */
+.textBg{
+    background:#313131;
+    color: aliceblue;
+    padding: 10px;
+}
+
+/* css of text-section outside of image */
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background: #f4f4f4;
+    color: #666;
+}
