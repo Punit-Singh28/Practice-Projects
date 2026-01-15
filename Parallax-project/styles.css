@@ -9,17 +9,17 @@ html,body{
 
 /* Images css */
 .pimg1{
-    background-image: url("../Practice-Projects/Images/image1.png");
+    background-image: url("../Parallax-project/Images/image1.png");
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url("../Practice-Projects/Images/image2.png");
+    background-image: url("../Parallax-project/Images/image2.png");
     min-height: 400px;
 }
 
 .pimg3{
-    background-image: url("../Practice-Projects/Images/image3.png");
+    background-image: url("../Parallax-project/Images/image3.png");
     min-height: 400px;
 }
 .pimg1, .pimg2, .pimg3{
