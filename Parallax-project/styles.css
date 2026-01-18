@@ -17,16 +17,29 @@ html,body{
     background-image: url("../Parallax-project/Images/image2.png");
     min-height: 400px;
 }
+@media (max-width:450px){
+ .pimg2{
+    height: 200px;
+    width: 100%;
+}
+}
 
 .pimg3{
     background-image: url("../Parallax-project/Images/image3.png");
     min-height: 400px;
+}
+@media (max-width:450px){
+ .pimg3{
+    height: 200px;
+    width: 100%;
+}
 }
 .pimg1, .pimg2, .pimg3{
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* css for text located in center of images */
@@ -55,4 +68,9 @@ html,body{
 .section-light{
     background: #f4f4f4;
     color: #666;
+}
+
+.section-dark{
+    background: #282e34;
+    color: #ddd;
 }
